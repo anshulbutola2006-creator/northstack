@@ -5,76 +5,146 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Contact — NorthStack</title>
 <meta name="description" content="Message NorthStack on WhatsApp to start a website project." />
+<meta name="theme-color" content="#0E0F11" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/site.css" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/luxury.css" />
 </head>
 <body>
-<header class="nav">
-  <div class="wrap nav-in">
-    <a class="brand" href="index.html" aria-label="NorthStack home">
-      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20V4l16 16V4" stroke="#c9f31d" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg>
-      NorthStack
-    </a>
-    <nav class="nav-links" aria-label="Main">
-      <a href="work.html">Work</a><a href="services.html">Services</a><a href="process.html">Process</a><a href="about.html">Studio</a><a href="blog.html">Notes</a>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="shell">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html" aria-label="NorthStack — home">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 20V4l16 16V4" stroke="#E5D3B3" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+        </svg>
+        NorthStack
+      </a>
+
+      <div class="nav-center">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Portfolio</a>
+        <a href="blog.html">Journal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <a class="cta-outline" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20to%20request%20a%20consultation." target="_blank" rel="noopener">
+        Request Consultation
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
     </nav>
-    <a class="nav-cta" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20a%20website%20for%20my%20business." target="_blank" rel="noopener">Start a project</a>
-    <button class="menu-btn" aria-expanded="false" aria-controls="mmenu" aria-label="Open menu">&#9776;</button>
   </div>
-  <div class="mobile-menu" id="mmenu"><div class="wrap">
-    <a href="work.html">Work</a><a href="services.html">Services &amp; pricing</a><a href="process.html">Process</a><a href="about.html">Studio</a><a href="blog.html">Notes</a><a href="contact.html">Contact</a>
-  </div></div>
-</header><section class="hero" style="padding:80px 0 40px">
-  <div class="hero-glow"></div>
-  <div class="wrap">
-    <p class="eyebrow" data-hero>Contact</p>
-    <h1 class="display" data-hero style="margin:14px 0 20px;font-size:clamp(2.4rem,6vw,4.4rem)">One message is enough.</h1>
-    <p class="lead" data-hero>Every conversation happens on WhatsApp — no forms, no call centre, no waiting on email.</p>
+
+  <div class="mobile-panel" id="mobile-panel">
+    <div class="shell">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Portfolio</a>
+      <a href="blog.html">Journal</a>
+      <a href="contact.html">Contact</a>
+      <a class="cta-outline" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20to%20request%20a%20consultation." target="_blank" rel="noopener">Request Consultation</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="shell">
+    <p class="eyebrow">Contact</p>
+    <h1>One message is <em>enough.</em></h1>
+    <p class="lede">Every conversation happens on WhatsApp — no forms, no call centre, no waiting on email.</p>
   </div>
 </section>
-<hr class="hr" />
-<section class="pad">
-  <div class="wrap">
-    <div class="grid grid-2" style="gap:40px;align-items:start">
-      <div data-reveal class="stack-16">
-        <h2 class="display" style="font-size:clamp(1.6rem,3.2vw,2.2rem);margin:0">Message us on WhatsApp</h2>
-        <p class="muted" style="margin:0">Tap a button and the message is pre-written for you. Replace it with your business details and send.</p>
-        <div class="stack-8" style="margin-top:8px">
-          <a class="btn btn-wa" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20a%20website%20for%20my%20business.%20Here%20is%20what%20I%20do%3A%20" target="_blank" rel="noopener">Start a new project</a>
-          <a class="btn btn-ghost" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20to%20see%20a%20demo%20for%20my%20industry." target="_blank" rel="noopener">Ask for a demo in my industry</a>
-          <a class="btn btn-ghost" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20pricing%20details." target="_blank" rel="noopener">Ask about pricing</a>
+<section class="section">
+  <div class="shell">
+    <div class="split">
+      <div data-reveal>
+        <h2>Start here</h2>
+        <p>Tap a button and the message is pre-written for you. Replace it with your business details and send.</p>
+        <div class="contact-list">
+          <a class="btn-solid" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20a%20website%20for%20my%20business.%20Here%20is%20what%20I%20do%3A%20" target="_blank" rel="noopener">Start a new project</a>
+          <a class="btn-ghost" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20to%20see%20a%20demo%20for%20my%20industry." target="_blank" rel="noopener">Ask for a demo in my industry</a>
+          <a class="btn-ghost" href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20pricing%20details." target="_blank" rel="noopener">Ask about pricing</a>
         </div>
       </div>
-      <div data-reveal class="card">
-        <h3 style="margin-bottom:12px">Good to know</h3>
-        <ul class="small muted" style="list-style:none;padding:0;margin:0;display:grid;gap:10px">
-          <li>&mdash; Replies usually within a few hours, 10:00&ndash;20:00 IST.</li>
-          <li>&mdash; We serve businesses across India; remote delivery only.</li>
-          <li>&mdash; Standard from &#8377;15,000 &middot; Premium from &#8377;30,000.</li>
-          <li>&mdash; 50% advance on UPI, balance on delivery.</li>
-          <li>&mdash; Care plans from &#8377;2,000/month.</li>
+      <div data-reveal>
+        <h2>Good to know</h2>
+        <ul class="note-list">
+          <li>Replies usually within a few hours, 10:00–20:00 IST.</li>
+          <li>We serve businesses across India; delivery is fully remote.</li>
+          <li>Standard from ₹15,000 · Premium from ₹30,000.</li>
+          <li>50% advance on UPI, balance on delivery.</li>
+          <li>Care plans from ₹2,000 per month.</li>
+          <li>Domain and hosting always registered in your name.</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <a class="brand" href="index.html"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20V4l16 16V4" stroke="#c9f31d" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg>NorthStack</a>
-        <p class="small muted" style="margin-top:14px;max-width:30ch">AI-powered builds. Human-grade design. Websites for businesses across India.</p>
-      </div>
-      <div><h4>Site</h4><a href="work.html">Work</a><a href="services.html">Services &amp; pricing</a><a href="process.html">Process</a><a href="about.html">Studio</a><a href="blog.html">Notes</a></div>
-      <div><h4>Start</h4><a href="https://wa.me/919557837730?text=Hi%20NorthStack%2C%20I%27d%20like%20a%20website%20for%20my%20business." target="_blank" rel="noopener">WhatsApp us</a><a href="contact.html">Contact</a><a href="services.html">Pricing</a></div>
+
+</main>
+<footer class="site-foot">
+  <div class="foot-cards">
+
+    <a class="card-cell" href="services.html">
+      <span class="idx">01 — Service</span>
+      <h3>AURA <span>Branding</span></h3>
+      <p>Logo, identity and visual language that make a small business read as established.</p>
+      <span class="arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a class="card-cell" href="services.html">
+      <span class="idx">02 — Service</span>
+      <h3>LUMINA <span>UI / UX</span></h3>
+      <p>Mobile-first interfaces designed for real customers, not award juries.</p>
+      <span class="arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <a class="card-cell" href="services.html">
+      <span class="idx">03 — Service</span>
+      <h3>SOLSTICE <span>Development</span></h3>
+      <p>Fast, accessible builds with motion that sells — delivered in 7 to 21 days.</p>
+      <span class="arrow" aria-hidden="true">↗</span>
+    </a>
+
+  </div>
+
+  <div class="shell">
+    <div class="foot-bar">
+      <span>© 2026 NorthStack · Made in India</span>
+      <span>
+        <a href="work.html">Portfolio</a> &nbsp;·&nbsp;
+        <a href="services.html">Services</a> &nbsp;·&nbsp;
+        <a href="contact.html">Contact</a>
+      </span>
     </div>
-    <div class="foot-bottom"><span>&copy; 2026 NorthStack. All rights reserved.</span><span>Made in India &middot; Delivered worldwide</span></div>
   </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-<script src="assets/site.js"></script>
+<script src="assets/luxury.js"></script>
+<script>
+(function () {
+  var btn = document.querySelector('.menu-toggle');
+  var panel = document.getElementById('mobile-panel');
+  if (!btn || !panel) return;
+  btn.addEventListener('click', function () {
+    var open = panel.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  panel.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      panel.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+</script>
 </body>
 </html>
