@@ -154,7 +154,7 @@ a{color:inherit;text-decoration:none}
 }
 
 /* --- left: value proposition --- */
-.hero-copy{max-width:34ch}
+.hero-copy{max-width:100%}
 .eyebrow{
   display:inline-flex;align-items:center;gap:12px;
   font-size:.62rem;font-weight:600;letter-spacing:.32em;text-transform:uppercase;
@@ -164,8 +164,8 @@ a{color:inherit;text-decoration:none}
 h1.hero-title{
   font-family:var(--serif);
   font-weight:300;
-  font-size:clamp(2.5rem,5.6vw,4.55rem);
-  line-height:.96;
+  font-size:clamp(2.1rem,3.9vw,3.55rem);
+  line-height:1.02;
   letter-spacing:-.015em;
   text-transform:uppercase;
   color:var(--gold);
@@ -276,28 +276,28 @@ h1.hero-title em{
   -webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);
   box-shadow:inset 0 0 24px rgba(229,211,179,.1);
 }
-.cube .f1{transform:translateZ(calc(var(--s,112px)/2))}
-.cube .f2{transform:rotateY(180deg) translateZ(calc(var(--s,112px)/2))}
-.cube .f3{transform:rotateY(90deg) translateZ(calc(var(--s,112px)/2))}
-.cube .f4{transform:rotateY(-90deg) translateZ(calc(var(--s,112px)/2))}
-.cube .f5{transform:rotateX(90deg) translateZ(calc(var(--s,112px)/2))}
-.cube .f6{transform:rotateX(-90deg) translateZ(calc(var(--s,112px)/2))}
+.cube .f1{transform:translateZ(var(--d))}
+.cube .f2{transform:rotateY(180deg) translateZ(var(--d))}
+.cube .f3{transform:rotateY(90deg) translateZ(var(--d))}
+.cube .f4{transform:rotateY(-90deg) translateZ(var(--d))}
+.cube .f5{transform:rotateX(90deg) translateZ(var(--d))}
+.cube .f6{transform:rotateX(-90deg) translateZ(var(--d))}
 
-.cube.c-main{--s:clamp(74px,15%,112px);z-index:3}
+.cube.c-main{--s:112px;--d:56px;z-index:3}
 .cube.c-left{
-  --s:clamp(44px,9%,66px);
+  --s:66px;--d:33px;
   left:8%;top:26%;
   animation-duration:34s;animation-direction:reverse;
   opacity:.85;
 }
 .cube.c-right{
-  --s:clamp(34px,7%,52px);
+  --s:52px;--d:26px;
   right:9%;bottom:22%;
   animation-duration:42s;
   opacity:.7;
 }
 .cube.c-top{
-  --s:clamp(26px,5%,40px);
+  --s:40px;--d:20px;
   right:24%;top:10%;
   animation-duration:22s;animation-direction:reverse;
   opacity:.6;
